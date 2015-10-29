@@ -18,6 +18,12 @@
               <input type="text" class="form-control" ng-model="artist" placeholder="Artist Name" >
               <button class="btn btn-primary" ng-click="getSongData()"> Submit </button>
             </div>
+             <select ng-model="search1"class="input-medium">
+                <option value="formatArtist.artist">Name</option>
+                <option value="formatArtist.collectionPrice">Price</option>
+                <option value="formatArtist.type">Type</option>
+                <option value="formatArtist.collection">Collection</option>
+            </select>
           </form>
         </div>
       </div>
